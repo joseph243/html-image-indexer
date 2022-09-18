@@ -5,9 +5,9 @@ public class buildFile {
     private String bigString = "";
     private PrintWriter writer;
 
-    public void setupFile(){
+    public void setupFile(String inPath, String inHTMLName){
         try {
-            writer = new PrintWriter("C:\\Users\\Joseph\\eclipse-workspace\\html-image-indexer\\thisisatest.txt", "UTF-8");
+            writer = new PrintWriter(inPath + "\\" + inHTMLName, "UTF-8");
         }
         catch (Exception e) {
             System.out.println("error initializing file:" + e);
