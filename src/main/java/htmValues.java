@@ -1,7 +1,7 @@
 public class htmValues {
 
-    public static final String title = "Hello World";
-    public static final String subTitle = "Hello United States";
+    public static final String title = "Joseph Vanderzwart - Galveston Vacation 2020";
+    public static final String subTitle = "Galveston Vacation 2020 Pictures";
     public static final String imgPrefix = "\t<br /> <img src=\"";
     public static final String imgSuffix = "\" width=\"500\"/> <br /> \n";
     public static final String lineBreak = " <br /> <br />";
